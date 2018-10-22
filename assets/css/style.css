@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+.jumbotron hr {
+	background-color: #FFF;
+}
+
+#jumbo-land {
+	padding-top: 15%;
+	height: 100vh;
+	background-color: #333;
+	border-radius: 0;
+}
+
+.jumbotron h1 {
+	color: #F2F2F2;
+}
+
+.btn a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+
+	
+@media only screen and (max-width: 400px) {
+
+}
