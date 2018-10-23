@@ -4,6 +4,8 @@
 	box-sizing: border-box;	
 }
 
+/*LANDING PAGE*/
+
 .jumbotron hr {
 	background-color: #FFF;
 }
@@ -15,7 +17,8 @@
 	border-radius: 0;
 }
 
-.jumbotron h1 {
+.jumbotron h1,
+.jumbotron p {
 	color: #F2F2F2;
 }
 
@@ -24,6 +27,52 @@
 	color: #FFF;
 }
 
+/*END OF LANDING PAGE*/
+
+/*HOME PAGE*/
+
+nav {
+	margin-bottom: 10px;
+}
+
+.dropdown-menu img {
+	height: 20px;
+	width: 20px;
+}
+
+#home-landing {
+	background-color: #333;
+	/*padding: 20%;*/
+	padding: 5%;
+	height: 20vh;
+	color: #FFF;
+}
+
+/*.carousel-inner > .carousel-item > img {
+	height: 700px;
+}*/
+
+.card > img { 
+	height: 250px;
+}
+
+#carousel-controls {
+	height: 90vh;
+	margin-bottom: 10px;
+}
+
+#carousel-controls img {
+	height: 90vh;
+	max-height: 90vh;
+}
+
+/*#cart {
+	height: 20px;
+	width: 20px;
+	: white;
+}*/
+
+/*END OF HOME PAGE*/
 
 
 
@@ -51,9 +100,30 @@
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-}
+	#carousel-controls {
+		height: 65vh;
+	}
 
+	#carousel-controls img {
+		height: 60vh;
+		max-height: 60vh;
+	}
+
+}
 	
 @media only screen and (max-width: 400px) {
+
+	#carousel-controls {
+		height: 65vh;
+	}
+
+	#carousel-controls img {
+		height: 60vh;
+		max-height: 60vh;
+	}
+
+	.googlemaps {
+		margin-top: 30px;
+	}
 
 }
