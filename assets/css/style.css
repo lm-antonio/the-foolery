@@ -2,7 +2,26 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;	
+	font-family: 'Raleway', sans-serif;
 }
+
+body {
+	background-color: #F2F2F2;
+}
+
+/*NAVBAR*/
+
+.navbar-brand {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#navpic {
+	height: 50px;
+	width: 50px;
+}
+
+/*END OF NAVBAR*/
+
 
 /*LANDING PAGE*/
 
@@ -32,7 +51,8 @@
 /*HOME PAGE*/
 
 nav {
-	margin-bottom: 10px;
+	border-bottom: 1px solid black;
+	/*margin-bottom: 10px;*/
 }
 
 .dropdown-menu img {
@@ -40,13 +60,26 @@ nav {
 	width: 20px;
 }
 
-#home-landing {
-	background-color: #333;
+.home-landing {
 	/*padding: 20%;*/
-	padding: 5%;
-	height: 20vh;
-	color: #FFF;
+	/*padding: 5%;*/
+	height: 230px;
+	width: 100%;
+	
 }
+
+.content {
+	width: 90%;
+	border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+
+}
+
+/*#banner {
+	height: 230px;
+	width: 100%;
+	padding: 0 20px 15px 20px;
+}*/
 
 /*.carousel-inner > .carousel-item > img {
 	height: 700px;
@@ -57,27 +90,118 @@ nav {
 }
 
 #carousel-controls {
-	height: 90vh;
-	margin-bottom: 10px;
+	height: 400px;
+	width: 90%;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 #carousel-controls img {
-	height: 90vh;
-	max-height: 90vh;
+	height: 400px;
+	width: 90%;
+	max-height: 400px;
 }
 
-/*#cart {
-	height: 20px;
-	width: 20px;
-	: white;
-}*/
+#shopnowbutton {
+	text-align: center;
+}
+
+#homehr {
+	
+}
 
 /*END OF HOME PAGE*/
 
 
+/*ABOUT PAGE*/
+
+#jumbotron-about {
+	background-color: #F2F2F2;
+	height: 400px;
+	border-radius: 0;
+	text-align: center;
+}
+
+#banner {
+	height: 200px;
+	width: 90%;	
+	
+}
+
+#landing-about {
+	font-family: 'Montserrat', sans-serif;
+	color: #F2F2F2;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+}
+
+.fadeIn {
+	animation-duration: 5s;
+}
+
+.about-tags {
+	font-family: 'Montserrat', sans-serif;	
+	font-weight: bold;
+}
+
+#mission {
+	height: 100%;
+	background-color: #F2F2F2;
+	color: #141414;
+}
+
+#vision {
+	height: 100%;
+	background-color: #141414;
+	color: #F2F2F2;
+}
+
+/*End of About*/
+
+/*GALLERY*/
+
+#head-gall {
+	background-color: #141414;
+	color: #F2F2F2;
+	text-transform: uppercase; /*uppercase all text*/
+	letter-spacing: 0.5em;
+}
 
 
 
+
+/*FOOTER*/
+
+footer {
+	border-top: 1px black solid;
+	color: white;
+}
+
+footer a:visited,
+footer a:link {
+	color: white;
+}
+
+.wire {
+
+}
+
+footer p {
+	font-size: 15px;
+}
+
+#submitbutton,
+#nameform {
+	width: 100%;
+}
+
+
+
+/*[class*="col"] {
+	border: 3px solid grey;
+}
+*/
 
 
 
@@ -107,6 +231,16 @@ nav {
 	#carousel-controls img {
 		height: 60vh;
 		max-height: 60vh;
+	}
+
+	#shopnowbutton {
+		margin: 0 auto;
+	}
+
+/*FOOTER*/
+
+	footer p {
+		font-size: 10px;
 	}
 
 }
