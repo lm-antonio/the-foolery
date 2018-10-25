@@ -11,6 +11,17 @@ body {
 
 /*NAVBAR*/
 
+nav {
+	border-bottom: 1px solid black;
+	/*margin-bottom: 10px;*/
+}
+
+
+.dropdown-menu img {
+	height: 20px;
+	width: 20px;
+}
+
 .navbar-brand {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -50,28 +61,9 @@ body {
 
 /*HOME PAGE*/
 
-nav {
-	border-bottom: 1px solid black;
-	/*margin-bottom: 10px;*/
-}
-
-.dropdown-menu img {
-	height: 20px;
-	width: 20px;
-}
-
-.home-landing {
-	/*padding: 20%;*/
-	/*padding: 5%;*/
-	height: 230px;
-	width: 100%;
-	
-}
-
 .content {
 	width: 90%;
-	border-left: 1px solid lightgrey;
-	border-right: 1px solid lightgrey;
+	border: 1px solid lightgrey;
 
 }
 
@@ -92,8 +84,6 @@ nav {
 #carousel-controls {
 	height: 400px;
 	width: 90%;
-	margin-bottom: 15px;
-	margin-top: 15px;
 }
 
 #carousel-controls img {
@@ -106,9 +96,7 @@ nav {
 	text-align: center;
 }
 
-#homehr {
-	
-}
+
 
 /*END OF HOME PAGE*/
 
@@ -117,14 +105,17 @@ nav {
 
 #jumbotron-about {
 	background-color: #F2F2F2;
-	height: 400px;
+	height: 300px;
 	border-radius: 0;
 	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 0;
 }
 
 #banner {
 	height: 200px;
-	width: 90%;	
+	width: 100%;	
 	
 }
 
@@ -140,6 +131,11 @@ nav {
 	animation-duration: 5s;
 }
 
+.content-about {
+	width: 90%;
+	border: 1px solid lightgrey;
+}
+
 .about-tags {
 	font-family: 'Montserrat', sans-serif;	
 	font-weight: bold;
@@ -153,7 +149,7 @@ nav {
 
 #vision {
 	height: 100%;
-	background-color: #141414;
+	background-color: #003366;
 	color: #F2F2F2;
 }
 
@@ -162,7 +158,7 @@ nav {
 /*GALLERY*/
 
 #head-gall {
-	background-color: #141414;
+	background-color: #003366;
 	color: #F2F2F2;
 	text-transform: uppercase; /*uppercase all text*/
 	letter-spacing: 0.5em;
@@ -201,20 +197,57 @@ footer p {
 /*[class*="col"] {
 	border: 3px solid grey;
 }
+
 */
 
 
 
 
 
+#sample {
+	height: 400px;
+}
+
+.customercards {
+	border: none;
+	background-color: #F2F2F2;
+}
+
+.customerpics {
+	border: 1px solid black;
+	border-radius: 100%;
+	width: 80%;
+}
+
+.starpic {
+	height: 20px;
+	width: 20px;
+}
+
+.star {
+	width: 50px;
+	border-radius: 100%;
+}
+
+.checked {
+	color: orange;
+	letter-spacing: 0.5em;
+}
 
 
+.try {
+	letter-spacing: 0.1em;
+}
 
 
+.outdoor {
+	margin: 0 auto;
+	text-align: center;
+}
 
-
-
-
+.space {
+	height: 200px;
+}
 
 
 
@@ -224,18 +257,11 @@ footer p {
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-	#carousel-controls {
-		height: 65vh;
-	}
-
-	#carousel-controls img {
-		height: 60vh;
-		max-height: 60vh;
-	}
-
 	#shopnowbutton {
 		margin: 0 auto;
 	}
+
+
 
 /*FOOTER*/
 
@@ -246,15 +272,6 @@ footer p {
 }
 	
 @media only screen and (max-width: 400px) {
-
-	#carousel-controls {
-		height: 65vh;
-	}
-
-	#carousel-controls img {
-		height: 60vh;
-		max-height: 60vh;
-	}
 
 	.googlemaps {
 		margin-top: 30px;

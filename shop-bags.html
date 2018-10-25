@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CAPSTONE 1 | GALLERY</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- Animate CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">	
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+</head>
+<body>
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top px-1 py-1 col-lg-12">
+		<a class="navbar-brand" href="home.html"><img id="navpic" src="assets/images/thefoolerypics/navpic.png"> The Foolery </a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div id="navbar-nav" class="collapse navbar-collapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="home.html">Home</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link active" href="shop.html">Shop</a>
+				</li>	
+				
+				<li class="nav-item">
+					<a class="nav-link" href="faqs.html">FAQs</a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#"><img src="assets/images/fb.svg"> Facebook</a>
+						<a class="dropdown-item" href="#"><img src="assets/images/ig.svg"> Instagram</a>
+						<div class="dropdown-divider"></div>
+						<p class="dropdown-item"><img src="assets/images/phone.svg"> (+63) 920 973 3362</p>
+						<p class="dropdown-item"><img src="assets/images/mail.svg"> thefooleryph@gmail.com</p>
+					</div>
+				</li>
+			</ul>
+
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Sign In</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#"><img id="cart" src="assets/images/shopping-cart-24.png"><span class="badge badge-danger">3</span></a>
+				</li>				
+			</ul>
+		</div>							
+	</nav> <!-- End of Navbar -->
+	
+
+	<div class="container-fluid">
+		<header id="head-gall" class="card my-3">
+			<h1 class="display-3 text-center">Gallery Page</h1>
+		</header>
+
+		<div class="row">
+			<div class="col-md-3 d-none d-sm-block">
+				<div id="left-side" class="list-group position-fixed">
+					<h2 class="p-3">Categories</h2>
+					<a href="shop-bags.html" class="list-group-item list-group-item-action active">Bags</a>
+					<a href="shop-elec.html" class="list-group-item list-group-item-action">Electronics</a>
+					<a href="shop-lamps.html" class="list-group-item list-group-item-action">Lamps</a>
+					<a href="shop-mugs.html" class="list-group-item list-group-item-action">Mugs</a>
+					<a href="shop-toys.html" class="list-group-item list-group-item-action">Toys</a>
+					<a href="shop-misc.html" class="list-group-item list-group-item-action">Miscellaneous</a>						
+				</div> <!-- End of List Group -->
+			</div> <!-- End of 4 Columns -->
+
+			<div class="col-md-9 col-12">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card gallery-items my-4" data-toggle="modal" data-target="#modal-1">
+								<img class="card-img-top img-fluid" src="assets/images/thefoolerypics/products/bags/bbb/bbb1.jpg">
+								<h3 class="card-title text-center">Belly Belt Bag</h3>
+							</div>
+							<div class="card gallery-items mb-4" data-toggle="modal" data-target="#modal-4">
+								<img class="card-img-top img-fluid" src="assets/images/thefoolerypics/products/bags/icb/icb1.jpg">
+								<h3 class="card-title text-center">Ice Cream Bag</h3>
+							</div>							
+						</div>
+
+						<div class="col-md-4">
+							<div class="card gallery-items my-4" data-toggle="modal" data-target="#modal-2">
+								<img class="card-img-top img-fluid" src="assets/images/thefoolerypics/products/bags/bb/bb1.jpg">
+								<h3 class="card-title text-center">Burger Bag</h3>
+							</div>							
+						</div>
+
+						<div class="col-md-4">
+							<div class="card gallery-items my-4" data-toggle="modal" data-target="#modal-3">
+								<img class="card-img-top img-fluid" src="assets/images/thefoolerypics/products/bags/cb/cb1.jpg">
+								<h3 class="card-title text-center">Cactus Bag</h3>
+							</div>							
+						</div>
+					</div>
+				</div> <!-- End of Nested Row -->				
+			</div> <!-- End of Nested Container -->		
+		</div> <!-- End of Items -->
+	</div> <!-- End of Row -->
+
+		<!-- MODAL -->
+		<div id="modal-1" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<h5 class="modal-title">Belly Belt Bag</h5>
+						<button type="button" class="close" data-dismiss="modal">
+							<span aria-hidden="true"> &times; </span>
+						</button>
+					</div> <!-- End of Modal Header -->
+
+					<div class="modal-body">
+						<img class="img-fluid" src="assets/images/thefoolerypics/products/bags/bbb/bbb1.jpg">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div> <!-- End of Modal Body -->
+
+					<div class="modal-footer">
+						<button class="btn btn-success">Add to Cart</button>
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div> <!-- End of Modal Footer -->
+				</div> <!-- End of Modal Content -->
+			</div> <!-- End of Modal Dialog -->
+		</div> <!-- End of Modal -->
+
+		<div id="modal-2" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<h5 class="modal-title">Burger Bag</h5>
+						<button type="button" class="close" data-dismiss="modal">
+							<span aria-hidden="true"> &times; </span>
+						</button>
+					</div> <!-- End of Modal Header -->
+
+					<div class="modal-body">
+						<img class="img-fluid" src="assets/images/thefoolerypics/products/bags/bb/bb1.jpg">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div> <!-- End of Modal Body -->
+
+					<div class="modal-footer">
+						<button class="btn btn-success">Add to Cart</button>
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div> <!-- End of Modal Footer -->
+				</div> <!-- End of Modal Content -->
+			</div> <!-- End of Modal Dialog -->
+		</div> <!-- End of Modal -->
+
+		<div id="modal-3" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<h5 class="modal-title">Cactus Bag</h5>
+						<button type="button" class="close" data-dismiss="modal">
+							<span aria-hidden="true"> &times; </span>
+						</button>
+					</div> <!-- End of Modal Header -->
+
+					<div class="modal-body">
+						<img class="img-fluid" src="assets/images/thefoolerypics/products/bags/cb/cb1.jpg">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div> <!-- End of Modal Body -->
+
+					<div class="modal-footer">
+						<button class="btn btn-success">Add to Cart</button>
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div> <!-- End of Modal Footer -->
+				</div> <!-- End of Modal Content -->
+			</div> <!-- End of Modal Dialog -->
+		</div> <!-- End of Modal -->
+
+		<div id="modal-4" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<h5 class="modal-title">Ice Cream Bag</h5>
+						<button type="button" class="close" data-dismiss="modal">
+							<span aria-hidden="true"> &times; </span>
+						</button>
+					</div> <!-- End of Modal Header -->
+
+					<div class="modal-body">
+						<img class="img-fluid" src="assets/images/thefoolerypics/products/bags/icb/icb1.jpg">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div> <!-- End of Modal Body -->
+
+					<div class="modal-footer">
+						<button class="btn btn-success">Add to Cart</button>
+						<button class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div> <!-- End of Modal Footer -->
+				</div> <!-- End of Modal Content -->
+			</div> <!-- End of Modal Dialog -->
+		</div> <!-- End of Modal -->
+
+
+
+
+
+	</div> <!-- End of Conatiner-Fluid -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<footer class="page-footer pt-3 bg-primary">
+		<div class="container-fluid px-0 text-center text-md-left">
+			<div class="container wire">
+				<div class="row">
+					<div class="col-md-3 mt-md-0 mt-3 wire">
+						<h5 class="text-uppercase mb-3">Disclaimer: </h5>
+						<p>
+							No copyright infringement intended, we do not own the images nor we take credit for it, we are not selling the website or making profits from it and it is used only for educational purposes.
+						</p>
+					</div>
+
+					<div class="col-md-3 mt-md-0 mt-3 wire">
+						<h5 class="text-uppercase mb-3">Products</h5>
+						<ul class="list-unstyled">
+							<li class="mt-2">
+								<a href="#">Bags</a>
+							</li>
+							<li class="mt-2">
+								<a href="#">Electronics</a>
+							</li>
+							<li class="mt-2">
+								<a href="#">Lamps</a>
+							</li>
+							<li class="mt-2">
+								<a href="#">Mugs</a>
+							</li>
+							<li class="mt-2">
+								<a href="#">Toys</a>
+							</li>
+							<li class="mt-2">
+								<a href="#">Miscellaneous</a>
+							</li>
+						</ul>						
+					</div>
+
+					<div class="col-md-3 mt-md-0 mt-3 wire">
+						<h5 class="text-uppercase mb-3">Questions?</h5>
+						<ul class="list-unstyled">
+							<li class="mt-2">
+								<a href="#">How to Order?</a>
+							</li>
+							<li class="mt-2">
+								<a href="#">Shipping Rates</a>
+							</li>
+							<li class="mt-2">
+								<a href="#">Terms & Conditions</a>
+							</li>
+							<li class="mt-2">
+								<a href="#">FAQs</a>
+							</li>
+						</ul>			
+					</div>
+
+					<div class="col-md-3 mt-md-0 mt-3 wire">
+						<h5 class="text-uppercase mb-3">Join our newsletter</h5>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-12 wire">
+								<input class="form-control" type="email" placeholder="Email Address">
+							</div>
+						</div>
+
+						<div class="row mt-2">
+							<div class="col-lg-6 col-md-12 col-6 wire">
+								<input id="nameform" class="form-control" type="text" placeholder="Name">
+							</div>
+							<div class="col-lg-6 col-md-12 col-6 wire">
+							<button id="submitbutton" class="btn">Submit</button>							
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="p-3 mb-0 text-center"> Luke Antonio | Tuitt Coding Bootcamp &copy; 2018 </p>
+		</div>
+	</footer>
+
+	<!-- jQuery first, then Popper, then Bootsrap JS -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<!-- External Bootstrap JS -->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>
