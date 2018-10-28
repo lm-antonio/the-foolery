@@ -62,7 +62,7 @@ nav {
 /*HOME PAGE*/
 
 .content {
-	width: 90%;
+	width: 90%;	
 	border: 1px solid lightgrey;
 
 }
@@ -164,6 +164,9 @@ nav {
 	letter-spacing: 0.5em;
 }
 
+.list-group-item {
+	width: 150%;
+}
 
 
 
@@ -204,9 +207,6 @@ footer p {
 
 
 
-#sample {
-	height: 400px;
-}
 
 .customercards {
 	border: none;
@@ -247,6 +247,13 @@ footer p {
 
 .space {
 	height: 200px;
+}
+
+.help,
+#page-logo {
+	height: 300px;
+	width: 300px;
+	text-align: center;
 }
 
 
