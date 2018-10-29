@@ -41,20 +41,33 @@ nav {
 }
 
 #jumbo-land {
-	padding-top: 15%;
+	padding-top: 5%;
 	height: 100vh;
-	background-color: #333;
+	background-color: #F2F2F2;
 	border-radius: 0;
 }
 
 .jumbotron h1,
 .jumbotron p {
-	color: #F2F2F2;
+	color: #141414;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .btn a {
 	text-decoration: none;
 	color: #FFF;
+}
+
+#index-logo {
+	height: 500px;
+	width: 500px;
+	text-align: center;
+}
+
+.index-container {
+	height: 500px;
+	width: 500px;
 }
 
 /*END OF LANDING PAGE*/
@@ -196,12 +209,12 @@ footer p {
 }
 
 
-
-/*[class*="col"] {
+/*
+[class*="col"] {
 	border: 3px solid grey;
 }
-
 */
+
 
 
 
@@ -256,6 +269,19 @@ footer p {
 	text-align: center;
 }
 
+#xend {
+	color: #141414;
+}
+
+/*#shopnowbutton {
+	height: 50%;
+}
+
+.rightcontent {
+	height: 100px;
+	top: 50%;
+}
+*/
 
 
 
@@ -268,12 +294,18 @@ footer p {
 		margin: 0 auto;
 	}
 
-
-
 /*FOOTER*/
 
 	footer p {
 		font-size: 10px;
+	}
+
+	.list-group-item {
+	width: 100%;
+	}
+
+	.card-title {
+		font-size: 20px;
 	}
 
 }
@@ -283,5 +315,26 @@ footer p {
 	.googlemaps {
 		margin-top: 30px;
 	}
+
+	#index-logo {
+		height: 300px;
+		width: 300px;	
+	}
+
+	.index-container {
+		height: 300px;
+		width: 300px;
+	}
+
+	.card,
+	.btn-link {
+		white-space: normal;
+	}
+
+	.space {
+		height: 10px;
+	}
+
+
 
 }
